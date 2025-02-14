@@ -408,7 +408,6 @@ export interface ApiAppointmentAppointment extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    appointmentDate: Schema.Attribute.DateTime & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

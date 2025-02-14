@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-02-14T23:12:01.026Z"
+    "x-generation-date": "2025-02-14T23:29:39.733Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -3266,7 +3266,6 @@
               "name",
               "phone",
               "email",
-              "appointmentDate",
               "emailSent"
             ],
             "type": "object",
@@ -3282,10 +3281,6 @@
               "email": {
                 "type": "string",
                 "format": "email"
-              },
-              "appointmentDate": {
-                "type": "string",
-                "format": "date-time"
               },
               "reason": {
                 "type": "string"
@@ -3355,7 +3350,6 @@
           "name",
           "phone",
           "email",
-          "appointmentDate",
           "emailSent"
         ],
         "properties": {
@@ -3376,10 +3370,6 @@
           "email": {
             "type": "string",
             "format": "email"
-          },
-          "appointmentDate": {
-            "type": "string",
-            "format": "date-time"
           },
           "reason": {
             "type": "string"
@@ -3698,10 +3688,6 @@
                 "email": {
                   "type": "string",
                   "format": "email"
-                },
-                "appointmentDate": {
-                  "type": "string",
-                  "format": "date-time"
                 },
                 "reason": {
                   "type": "string"

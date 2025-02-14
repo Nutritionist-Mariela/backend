@@ -24,10 +24,6 @@
       "type": "email",
       "required": true
     },
-    "appointmentDate": {
-      "type": "datetime",
-      "required": true
-    },
     "reason": {
       "type": "text"
     },
