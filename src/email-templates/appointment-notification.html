@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva consulta agendada</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #2563eb;
+            color: white;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+            text-align: center;
+        }
+        .content {
+            padding: 25px;
+            background-color: #f8fafc;
+            border-radius: 0 0 8px 8px;
+        }
+        .details-table {
+            width: 100%;
+            margin: 20px 0;
+        }
+        .details-table td {
+            padding: 10px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 25px;
+            color: #64748b;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📅 Nueva consulta agendada</h1>
+        </div>
+        <div class="content">
+            <table class="details-table">
+                <tr>
+                    <td><strong>Nombre:</strong></td>
+                    <td>{{nombre}}</td>
+                </tr>
+                <tr>
+                    <td><strong>Correo electrónico:</strong></td>
+                    <td>{{email}}</td>
+                </tr>
+                <tr>
+                    <td><strong>Teléfono:</strong></td>
+                    <td>{{telefono}}</td>
+                </tr>
+                <tr>
+                    <td><strong>Motivo:</strong></td>
+                    <td>{{motivo}}</td>
+                </tr>
+            </table>
+
+            <div class="footer">
+                <p>Este mensaje fue enviado automáticamente - por favor no responder.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

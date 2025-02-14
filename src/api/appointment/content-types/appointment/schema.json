@@ -34,7 +34,8 @@
     "emailSent": {
       "type": "boolean",
       "required": true,
-      "default": false
+      "default": false,
+      "private": true
     }
   }
 }
